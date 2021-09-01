@@ -1,8 +1,8 @@
 import time
 secsnow = 0
 def twentyfourh():
-    hoursnow = int(input("enter the current hour in 24 hour format"))
-    minutenow = int(input("enter the current minute"))
+    hoursnow = int(input("Enter the current hour in 24 hour format"))
+    minutenow = int(input("Enter the current minute"))
     seconds = 0
     for hours in range (24):
         hours = hours + hoursnow
@@ -14,8 +14,8 @@ def twentyfourh():
                 time.sleep(1)
                
 def twelvehour():
-    hoursnow = int(input("enter the current hour in 12 hour format"))
-    minutenow = int(input("enter the current minute"))
+    hoursnow = int(input("Enter the current hour in 12 hour format"))
+    minutenow = int(input("Enter the current minute"))
     seconds = 0
     for hours in range (12):
         hours = hours + hoursnow
@@ -28,7 +28,7 @@ def twelvehour():
             
 
 
-ask = input("would you like your flip clock in a 24 hour version? y/n")
+ask = input("Would you like your flip clock in a 24 hour version? y/n")
 if ask == "y":
     twentyfourh()
 else:
